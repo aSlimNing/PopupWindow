@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/netease/PopupWindow/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8a1e33ea80ba107cb47cd8a11d166e4c2fd66bde">
+        <dex dex="/Users/netease/PopupWindow/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_992dc16f97e9cb4b0f0267f275dd9d80331edf2d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/netease/PopupWindow/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/netease/PopupWindow/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5294129e7720b87f3fa4735d3293368c5878b7d4/classes.dex" />
+    </item>
+
+</items>
