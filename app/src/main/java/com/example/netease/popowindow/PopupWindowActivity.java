@@ -20,8 +20,14 @@ public class PopupWindowActivity extends Activity implements CommonPopupWindow.V
 
     private void initView() {
         mPopBtn = (Button) findViewById(R.id.btn_popup);
-        CommonPopupWindow.Builder mPopWindowBuilder = new CommonPopupWindow.Builder(this);
-        mPopWindowBuilder.setView(R.layout.popup_down).setAnimationStyle(R.style.AnimHorizontal).setBackGroundLevel(0.5f).setViewOnclickListener(this)
+        final CommonPopupWindow.Builder mPopWindowBuilder = new CommonPopupWindow.Builder(this);
+        mPopWindowBuilder.setView(R.layout.popup_down).setAnimationStyle(R.style.AnimHorizontal).setBackGroundLevel(0.5f).setViewOnclickListener(this);
+        mPopBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mPopWindowBuilder.create().showAsDropDown(mPopBtn);
+            }
+        });
     }
 
     @Override
